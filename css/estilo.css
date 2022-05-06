@@ -40,10 +40,7 @@ header ul li a{
     color: var(--primary);
     font-size: 2.0;
 }
-
-main{
-    min-height: 80vh;
-}
+    
 footer {
     background-color: var(--primary);
     height: 3rem;
@@ -61,4 +58,11 @@ footer div{
 /* Specific main */
 main > picture.main > img {
     width:100%;
+}
+main {
+    width: 100%;
+}
+main picture {
+    display: flex;
+    justify-content: center;
 }
