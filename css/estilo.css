@@ -44,6 +44,7 @@ header ul li a{
 footer {
     background-color: var(--primary);
     height: 3rem;
+    justify-content: flex-end;
 }
 footer div{
     height: 3rem;
@@ -66,3 +67,4 @@ main picture {
     display: flex;
     justify-content: center;
 }
+
